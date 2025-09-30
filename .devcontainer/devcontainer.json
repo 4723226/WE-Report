@@ -1,7 +1,6 @@
 {
-"name": "Ubuntu DevContainer"
-,
-"build": {
-"dockerfile": "./Dockerfile"
-},
+  "name": "Ubuntu DevContainer",
+  "build": {
+    "dockerfile": "./Dockerfile"
+  }
 }
