@@ -1,0 +1,4 @@
+@4723226 ➜ /workspaces/WE-Docker2/project_root (main) $ docker ps
+CONTAINER ID   IMAGE                  COMMAND                  CREATED        STATUS          PORTS                                         NAMES
+a68bad36a451   project_root-backend   "uvicorn main:app --…"   20 hours ago   Up 11 seconds   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   project_root-backend-1
+633a231c9b88   postgres:15            "docker-entrypoint.s…"   20 hours ago   Up 12 seconds   5432/tcp                                      project_root-db-1
